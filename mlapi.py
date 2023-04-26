@@ -27,7 +27,11 @@ async def scoring_endpoint(data: str):
 
     return f"This is {value} sentiment"
 
-io = gr.Interface(scoring_endpoint, "textbox", "textbox")
+io = gr.Interface(scoring_endpoint,
+                  inputs=gr.inputs.Textbox(lines=5, placeholder="Enter your comment here.."),
+                  outputs="text",
+                  description="Enter a comment to be scored as a Positive, Neutral or Negative statement",
+                  theme="huggingface")
 # io = gr.Interface(fn=score_text,
 #                     inputs=gr.inputs.Textbox(lines=5, placeholder='Type comment'),
 #                     outputs='text')
