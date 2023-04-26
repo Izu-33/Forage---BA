@@ -15,8 +15,8 @@ async def root():
 
 
 @app.get("/predict")
-async def scoring_endpoint(data: str):
-    yhat = model.polarity_scores(data)['compound']
+async def scoring_endpoint(INPUT_TEXT: str):
+    yhat = model.polarity_scores(INPUT_TEXT)['compound']
     
     if yhat > 0:
         value = 'Positive'
@@ -31,7 +31,8 @@ io = gr.Interface(scoring_endpoint,
                   inputs=gr.inputs.Textbox(lines=5, placeholder="Enter your comment here.."),
                   outputs="text",
                   description="Enter a comment to be scored as a Positive, Neutral or Negative statement",
-                  theme="huggingface")
+                  title="Sentiment Analyzer",
+                  theme="dark")
 # io = gr.Interface(fn=score_text,
 #                     inputs=gr.inputs.Textbox(lines=5, placeholder='Type comment'),
 #                     outputs='text')
