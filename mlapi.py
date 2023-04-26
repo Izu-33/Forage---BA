@@ -32,9 +32,8 @@ io = gr.Interface(scoring_endpoint,
                   outputs="text",
                   description="Enter a comment to be scored as a Positive, Neutral or Negative statement",
                   title="Sentiment Analyzer",
-                  theme="dark")
-# io = gr.Interface(fn=score_text,
-#                     inputs=gr.inputs.Textbox(lines=5, placeholder='Type comment'),
-#                     outputs='text')
+                  allow_flagging="never",
+                  theme=gr.themes.Monochrome(),
+                  css="footer {visibility: hidden}")
 
 gradio_app = gr.mount_gradio_app(app, io, path=CUSTOM_PATH) 
