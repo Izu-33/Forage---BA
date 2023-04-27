@@ -2,6 +2,8 @@
 
 ![British Airways Logo](images/brit_image.png)
 
+<center><img src="images/brit_image.png" alt="British Airways Logo" width="800" height="600" style="display: block; margin: 0 auto" /></center>
+
 The national airline of the United Kingdom is British Airways (BA). 
 Numerous BA planes bring passengers all around the world on their daily 
 arrivals and departures from the UK. The aim of this project is to explore
@@ -54,6 +56,16 @@ For the project the following Python libraries for Data Science and Machine Lear
 | requests | For web scraping |
 | wordcloud | For creating wordclouds |
 | spacy | For lemmatization |
+
+# Modeling (k-Means, LDA, Vader)
+
+- k-Means: k-Means clustering was used to cluster related words in the customer review comments (texts) and uncover
+hidden underlying topics in the discussions of the customers.
+
+- Latent Dirichlet Allocation (LDA): LDA is a generative probabilistic model of a corpus. This was used for topic
+modeling as well.
+
+- Vader: Used to build a model for sentiment scoring.
 
 
 Link to test the sentiment analyzer: [link](https://sentalyzer-app.onrender.com/gradio/)
