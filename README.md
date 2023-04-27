@@ -9,10 +9,14 @@ the experience of British Airways customers in order to improve customer service
 
 # About the dataset
 
+### Source
+
 The dataset used was scraped from the web using a website called [Skytrax](https://www.airlinequality.com/airline-reviews/british-airways/).
 Skytrax is an independent air travel review website which has become a leading review site for airline,
 airport and associated air travel traveller reviews. This is current day data as at the day of scraping.
 After obtaining the dataset, the data had to be cleaned and prepped. EDA was performed on it to uncover some insights.
+
+### Features
 
 - review_rating: Overall customer review rating of a customer.
 - review_title: The title of the review comment or post on the website.
@@ -24,6 +28,33 @@ After obtaining the dataset, the data had to be cleaned and prepped. EDA was per
 - seat_type: Classes of the flight (Economy, Premium Economy, Business, First)
 - route: Flight source to destination.
 - date_flown: Date of flight/trip.
+- seat_comfort: Rating of seat comfort during flight.
+- cabin_staff_service: Rating of flight crew service during flight.
+- food_beverages: Rating of food and beverages served during flight.
+- inflight_entertainment: Rating of inflight entertainment.
+- ground_service
+- wifi: Rating of wifi service/quality.
+- value_for_money: Rating of value for money on a scale of 1 to 5.
+- recommended: Info concerning whether or not the customer recommended the airline in review.
 
-Link to ML app: [link](https://sentalyzer-app.onrender.com/gradio/)
+# Libraries used
+
+For the project the following Python libraries for Data Science and Machine Learning were used:
+| Package | Function |
+|---------|----------|
+| numpy | For scientific computation |
+| pandas | For data manipulation |
+| matplotlib | For visualization |
+| seaborn | For visualization |
+| folium | For map views |
+| nltk | For text preprocessing |
+| sklearn | For machine learning |
+| gensim | For topic modeling |
+| bs4 | For parsing html |
+| requests | For web scraping |
+| wordcloud | For creating wordclouds |
+| spacy | For lemmatization |
+
+
+Link to test the sentiment analyzer: [link](https://sentalyzer-app.onrender.com/gradio/)
 
