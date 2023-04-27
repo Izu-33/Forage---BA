@@ -1,6 +1,6 @@
 # British Airways Customer Review Analysis
 
-<center><img src="images/brit_image.png" alt="British Airways Logo" /></center>
+<img src="images/brit_image.png" alt="British Airways Logo" display: block; style="margin-left: auto; margin-right: auto;"/>
 
 The national airline of the United Kingdom is British Airways (BA). 
 Numerous BA planes bring passengers all around the world on their daily 
