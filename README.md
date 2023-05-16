@@ -55,6 +55,15 @@ For the project the following Python libraries for Data Science and Machine Lear
 | wordcloud | For creating wordclouds |
 | spacy | For lemmatization |
 
+# Dashboard
+
+An interactive dashboard was developed to track key metrics that management 
+can use to monitor the business.
+
+![ba_dashboard](images/BA_dashboard.png)
+
+Here is a link to the live [interactive dashboard](https://lookerstudio.google.com/reporting/dab728b0-fcb6-4ea6-96e0-474b7b69a876)
+
 # Modeling (k-Means, LDA, Vader)
 
 - k-Means: k-Means clustering was used to cluster related words in the customer review comments (texts) and uncover
