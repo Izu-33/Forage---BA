@@ -67,7 +67,7 @@ Here is a link to the live [interactive dashboard](https://lookerstudio.google.c
 # Summary of Key Findings
 
 After a slideshow was created for presentation of findigs, as stakeholders would prefer to see summaries and not code and every little technical detail.
-Here is the [presentation](./BA\ CUSTOMER\ REVIEW\ ANALYSIS.pdf)
+Here is the [presentation](https://github.com/Izu-33/Forage---BA/blob/main/BA%20CUSTOMER%20REVIEW%20ANALYSIS.pdf)
 
 # Modeling (k-Means, LDA, Vader)
 
