@@ -57,7 +57,7 @@ For the project the following Python libraries for Data Science and Machine Lear
 
 # Dashboard
 
-An interactive dashboard was developed to track key metrics that management 
+An interactive dashboard was developed using Google Data Studio (Looker) to track key metrics that management 
 can use to monitor the business.
 
 ![ba_dashboard](images/BA_dashboard.png)
