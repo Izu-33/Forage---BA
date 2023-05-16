@@ -64,6 +64,11 @@ can use to monitor the business.
 
 Here is a link to the live [interactive dashboard](https://lookerstudio.google.com/reporting/dab728b0-fcb6-4ea6-96e0-474b7b69a876)
 
+# Summary of Key Findings
+
+After a slideshow was created for presentation of findigs, as stakeholders would prefer to see summaries and not code and every little technical detail.
+Here is the [presentation](BA\ CUSTOMER\ REVIEW\ ANALYSIS.pdf)
+
 # Modeling (k-Means, LDA, Vader)
 
 - k-Means: k-Means clustering was used to cluster related words in the customer review comments (texts) and uncover
